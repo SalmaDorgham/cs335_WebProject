@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": "4e68",
+      "email": "test1@gmail.com",
+      "password": "test1234",
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "cart": {
+        "0": {
+          "item": "bd56",
+          "tradeitem": "8a84",
+          "status": "waiting"
+        },
+        "1": {
+          "item": "aer4",
+          "tradeitem": "1y97",
+          "status": "complete"
+        }
+      }
+    },
+    {
+      "id": "caca",
+      "email": "test2@gmail.com",
+      "password": "test1234",
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "cart": {}
+    },
+    {
+      "id": "0a84",
+      "email": "test3@gmail.com",
+      "password": "test1234",
+      "country": "Kuwait",
+      "state": "Hawalli",
+      "city": "Ar Rumaythīyah",
+      "cart": {}
+    }
+  ],
+  "products": [
+    {
+      "id": "8a84",
+      "user": "4e68",
+      "title": "phone",
+      "category": "Electronics",
+      "date": "2025-09-12T13:37:27+00:00",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png",
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "1y97",
+      "user": "4e68",
+      "title": "shirt",
+      "category": "Clothes",
+      "date": "2025-04-12T13:37:27+00:00",
+      "traded": true,
+      "public": false,
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png",
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "4o32",
+      "user": "4e68",
+      "title": "table",
+      "category": "Home",
+      "date": "2025-05-12T13:37:27+00:00",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "b356",
+      "user": "caca",
+      "title": "doll",
+      "category": "Toys",
+      "date": "2025-10-12T13:37:27+00:00",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "bd56",
+      "user": "caca",
+      "title": "cards",
+      "category": "Collectibles",
+      "date": "2025-11-12T13:37:27+00:00",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Al Farwaniyah",
+      "city": "Al Farwānīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "aer4",
+      "user": "0a84",
+      "title": "labubu",
+      "category": "Collectibles",
+      "date": "2025-11-30T13:37:27+00:00",
+      "traded": true,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Hawalli",
+      "city": "Ar Rumaythīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "1er4",
+      "user": "0a84",
+      "title": "humidifier",
+      "category": "Home",
+      "date": "2025-11-30T13:37:27+00:00",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Hawalli",
+      "city": "Ar Rumaythīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "a234",
+      "user": "0a84",
+      "title": "psp",
+      "category": "Electronics",
+      "date": "2025-11-30T13:37:27+00:00",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Hawalli",
+      "city": "Ar Rumaythīyah",
+      "meeting": "Kuwait University: College of Science",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+      "images": [
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    },
+    {
+      "id": "c3e5",
+      "user": "0a84",
+      "title": "testProduct",
+      "category": "Accessories",
+      "date": "2025-12-14T17:16:59.381Z",
+      "traded": false,
+      "public": true,
+      "country": "Kuwait",
+      "state": "Hawalli",
+      "city": "Ar Rumaythīyah",
+      "meeting": "Avenues",
+      "description": "test product! for testing!!!",
+      "images": [
+        "/images/product.png",
+        "/images/product.png",
+        "/images/product.png",
+        "/images/product.png"
+      ]
+    }
+  ]
+}

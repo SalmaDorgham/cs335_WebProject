@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home · Swapify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="top-strip">
+  <div class="container">
+    <small></small> 
+    <small>English ▾</small>
+  </div>
+</div>
+
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img src="logo.png" alt="Swapify" style="height:60px; display:inline-block"></a>
+      <div class="searchbar">
+        <span class="icon">🔍</span>
+        <input type="search" placeholder="What are you looking for?">
+        <span class="icon">❤</span>
+        <span class="icon">🛒</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" onclick="return false;">About</a>
+        <a href="signup.html">Sign Up</a>
+      </nav>
+      <button class="nav-toggle" onclick="document.body.classList.toggle('nav-open')">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container stack gap-3">
+      <h2 class="h2">Browse By Category</h2>
+      <div class="category-row">
+        <div class="cat"><div class="icon">📱</div><small>Phones</small></div>
+        <div class="cat"><div class="icon">💻</div><small>Computers</small></div>
+        <div class="cat"><div class="icon">⌚</div><small>SmartWatch</small></div>
+        <div class="cat cat--active"><div class="icon">📷</div><small>Camera</small></div>
+        <div class="cat"><div class="icon">🎧</div><small>HeadPhones</small></div>
+        <div class="cat"><div class="icon">🎮</div><small>Gaming</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container stack gap-3">
+      <div class="stack-row" style="justify-content:space-between;align-items:center">
+        <h2 class="h2">Close to You</h2>
+        <a class="btn btn--outline" href="#">View All</a>
+      </div>
+      <div class="grid grid-4">
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Nearby Item 1</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="product.html">View</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Nearby Item 2</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="product.html">View</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Nearby Item 3</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="product.html">View</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Nearby Item 4</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="product.html">View</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="stack-row" style="justify-content:space-between;align-items:center">
+        <h2 class="h2">Popular</h2>
+        <a class="btn btn--outline" href="#">View All</a>
+      </div>
+      <div class="grid grid-4" style="margin-top:var(--space-6)">
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Popular 1</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span><span class="old"></span></div><small class="muted"></small><a class="btn btn--primary" href="product.html">View</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Popular 2</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span><span class="old"></span></div><small class="muted"></small><a class="btn btn--primary" href="product.html">View</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Popular 3</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span><span class="old"></span></div><small class="muted"></small><a class="btn btn--primary" href="product.html">View</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">Popular 4</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span><span class="old"></span></div><small class="muted"></small><a class="btn btn--primary" href="product.html">View</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="stack-row" style="justify-content:space-between;align-items:center">
+        <h2 class="h2">Newly Added</h2>
+        <a class="btn btn--outline" href="#">View All</a>
+      </div>
+      <div class="grid grid-4" style="margin-top:var(--space-6)">
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 1</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 2</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 3</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 4</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 5</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 6</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 7</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+        <article class="card product-card"><img src="blue 2.png"><div class="body"><strong class="h4">New 8</strong><div class="stack-row" style="gap:.5rem"><span class="price"></span></div><a class="btn btn--outline" href="cart.html">Add to Cart</a></div></article>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container footer__top grid grid-4">
+    <div class="stack gap-2">
+      <h4 class="h4"></h4>
+      <p>Subscribe<br>
+      <div class="stack-row" style="gap:.5rem">
+        <input class="input" placeholder="Enter your email" style="border-radius:8px 0 0 8px">
+        <button class="btn btn--primary">→</button>
+      </div>
+    </div>
+
+    <div class="stack gap-2">
+      <h4 class="h4">Support</h4>
+      <p class="muted">
+        kuwait university - computer science department <br>
+        swapify@email.com<br>
+        +965xxxxxxxx
+      </p>
+    </div>
+
+    <div class="stack gap-2">
+      <h4 class="h4">Account</h4>
+      <a href="account.html">My Account</a>
+      <a href="login.html">Login / Register</a>
+      <a href="cart.html">Cart</a>
+      <a href="wishlist.html">Wishlist</a>
+    </div>
+
+    <div class="stack gap-2">
+      <h4 class="h4">Quick Link</h4>
+      <a href="404.html">Privacy Policy</a>
+      <a href="404.html">Terms Of Use</a>
+      <a href="404.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <small>© 2025 Swapify</small>
+    <small>Payments • Visa • MasterCard • KNET</small>
+    <span class="spacer"></span>
+     <a class="brand" href="index.html"><img src="logo.png" alt="Swapify" style="height:60px; display:inline-block"></a>
+  </div>
+</footer>
+
+
+</body>
+</html>

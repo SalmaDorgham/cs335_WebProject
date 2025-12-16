@@ -1,0 +1,49 @@
+.cart-header, .cart-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 120px;
+  padding: 15px 20px;
+  background: #fff;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.cart-header {
+  font-weight: bold;
+  background: #f8f8f8;
+}
+
+.status.waiting {
+  background: #ff6363;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.status.approved {
+  background: #a7ffab;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.trash-icon {
+  color: #d11a2a;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.talk {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.keep-browsing-btn {
+  border: 1px solid #000;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}

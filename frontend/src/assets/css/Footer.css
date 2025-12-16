@@ -1,0 +1,105 @@
+.footer-section {
+  margin-top: 5%;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-family: inherit;
+}
+
+/* ===== DESKTOP LAYOUT ===== */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 60px;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-col p,
+.footer-col li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Logo Column */
+.footer-logo-col {
+  flex: 1;
+  text-align: right;
+  min-width: 180px;
+}
+
+.footer-logo {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+/* Social Icons */
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+  justify-content:center;
+}
+
+.footer-socials i {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.footer-socials i:hover {
+  opacity: 1;
+}
+
+/* Divider + Bottom Text */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 0 30px;
+  }
+
+  .footer-logo-col {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .footer-logo {
+    width: 120px;
+  }
+
+  .footer-socials {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    margin-top: 20px;
+  }
+}
