@@ -31,9 +31,11 @@ confirming items are traded, rating and feedback, and transaction history.
 
 - Run Server:
   -  `cd backend`
-  -  `node server.js`
+  -  `npm install` (first time)
+  -  `npm index.js`
 - On a new terminal, Run Web Application:
   -  `cd frontend`
+  -  `npm install` (first time)
   -  `npm start`
 
 ## Visualizations
