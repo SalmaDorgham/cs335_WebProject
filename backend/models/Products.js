@@ -40,12 +40,12 @@ const ProductSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-ProductSchema.pre("save", function (next) {
+ProductSchema.pre("save", function () {
   if (!this.images || this.images.length === 0) {
-    this.images = ["/images/product.png"];
+    this.images = ["/uploads/product.png"];
   }
-  next();
 });
+
 
 ProductSchema.set("toJSON", {
   virtuals: true,
